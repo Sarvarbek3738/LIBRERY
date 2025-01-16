@@ -75,7 +75,7 @@
 }
 
 .descover:hover .house {
-    background-color: #0056FF;
+    background-color: #C92035;
 }
 
 .descover:hover .house i {
@@ -99,14 +99,14 @@
 }
 
 .Category:hover .house {
-    background-color: #0056FF;
+    background-color: #C92035;
 }
 
 .Category:hover .house i {
     color: white;
 }
 
-.My_Library {
+.chat {
     padding: 15px;
     display: flex;
     align-items: center;
@@ -116,16 +116,16 @@
     color: #6E7583;
 }
 
-.My_Library:hover {
+.chat:hover {
     cursor: pointer;
     color: black;
 }
 
-.My_Library:hover .house {
-    background-color: #0056FF;
+.chat:hover .house {
+    background-color: #C92035;
 }
 
-.My_Library:hover .house i {
+.chat:hover .house i {
     color: white;
 }
 
@@ -145,7 +145,7 @@
 }
 
 .Dowinload:hover .house {
-    background-color: #0056FF;
+    background-color: #C92035;
 }
 
 .Dowinload:hover .house i {
@@ -168,7 +168,7 @@
 }
 
 .Audio:hover .house {
-    background-color: #0056FF;
+    background-color: #C92035;
 }
 
 .Audio:hover .house i {
@@ -191,7 +191,7 @@
 }
 
 .Favourite:hover .house {
-    background-color: #0056FF;
+    background-color: #C92035;
 }
 
 .Favourite:hover .house i {
@@ -214,7 +214,7 @@
 }
 
 .settings:hover .house {
-    background-color: #0056FF;
+    background-color: #C92035;
 }
 
 .settings:hover .house i {
@@ -237,7 +237,7 @@
 }
 
 .support:hover .house {
-    background-color: #0056FF;
+    background-color: #C92035;
 }
 
 .support:hover .house i {
@@ -260,7 +260,7 @@
 }
 
 .logout:hover .house {
-    background-color: #0056FF;
+    background-color: #C92035;
 }
 
 .logout:hover .house i {
@@ -291,7 +291,7 @@ nav .containeri {
 }
 
 .Search {
-    width: 300px;
+    width: 100%;
     background-color: #F0F5FF;
     padding: 10px;
     border-radius: 8px;
@@ -301,7 +301,7 @@ nav .containeri {
     border: none;
     background-color: #F0F5FF;
     padding-left: 10px;
-    width: 200px;
+    width: 850px;
     outline: none;
 }
 
@@ -314,6 +314,7 @@ nav .containeri {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    padding-left: 90px;
 }
 
 .accound img {
@@ -323,7 +324,7 @@ nav .containeri {
 }
 
 .hero .container {
-    padding-top: 30px;
+    padding-top: 8px;
 }
 
 .hero {
@@ -363,7 +364,7 @@ nav .containeri {
 }
 
 .Turlari h4:hover {
-    background-color: #0056FF;
+    background-color: #C92035;
     color: white;
     cursor: pointer;
 }
@@ -377,7 +378,7 @@ nav .containeri {
 }
 
 .seeAll {
-    color: #0056FF;
+    color: #C92035;
 }
 
 .hero0 {
@@ -421,7 +422,7 @@ nav .containeri {
 /* ============================================================================================= */
 /* o'ng tomondagi kok oyna */
 .bookbase2 {
-    background-color: #001743;
+    background-color: #c1051b;
     width: 290px;
     padding: 50px;
 }
@@ -487,7 +488,7 @@ nav .containeri {
 }
 .bookbase2_box_btn button{
     padding: 12px 35px;
-    background-color: #0056FF;
+    background-color: #c92035;
     color: white;
     font-size: 18px;
     font-weight: normal;

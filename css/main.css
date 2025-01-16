@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+    transition: all .25s ease;
+}
+
+.header {
+    display: flex;
+}
+
+.covers {
+    padding: 20px;
+}
+
+.bookbase {
+    padding: 5px;
+    width: 280px;
+    /* height: 100vh; */
+    box-shadow: 0px 0px 20px 5px #E4E7ED;
+    z-index: 9999;
+    background-color: white;
+}
+
+.logo_bookbase {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.descover {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    gap: 15px;
+    color: #6E7583;
+
+}
+
+.house {
+    /* padding: 8px; */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #F1F3F4;
+
+}
+
+.house i {
+    text-align: center;
+    font-size: 16px;
+    color: #6E7583;
+    margin-top: 12px;
+
+}
+
+.descover:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.descover:hover .house {
+    background-color: #0056FF;
+}
+
+.descover:hover .house i {
+    color: white;
+}
+
+.Category {
+    color: #6E7583;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    gap: 15px;
+    color: #6E7583;
+}
+
+.Category:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.Category:hover .house {
+    background-color: #0056FF;
+}
+
+.Category:hover .house i {
+    color: white;
+}
+
+.My_Library {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    gap: 15px;
+    color: #6E7583;
+}
+
+.My_Library:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.My_Library:hover .house {
+    background-color: #0056FF;
+}
+
+.My_Library:hover .house i {
+    color: white;
+}
+
+.Dowinload {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    gap: 15px;
+    color: #6E7583;
+}
+
+.Dowinload:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.Dowinload:hover .house {
+    background-color: #0056FF;
+}
+
+.Dowinload:hover .house i {
+    color: white;
+}
+
+.Audio {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    gap: 15px;
+    color: #6E7583;
+}
+
+.Audio:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.Audio:hover .house {
+    background-color: #0056FF;
+}
+
+.Audio:hover .house i {
+    color: white;
+}
+
+.Favourite {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    gap: 15px;
+    color: #6E7583;
+}
+
+.Favourite:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.Favourite:hover .house {
+    background-color: #0056FF;
+}
+
+.Favourite:hover .house i {
+    color: white;
+}
+
+.settings {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    gap: 15px;
+    color: #6E7583;
+}
+
+.settings:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.settings:hover .house {
+    background-color: #0056FF;
+}
+
+.settings:hover .house i {
+    color: white;
+}
+
+.support {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    gap: 15px;
+    color: #6E7583;
+}
+
+.support:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.support:hover .house {
+    background-color: #0056FF;
+}
+
+.support:hover .house i {
+    color: white;
+}
+
+.logout {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    gap: 15px;
+    color: #6E7583;
+}
+
+.logout:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.logout:hover .house {
+    background-color: #0056FF;
+}
+
+.logout:hover .house i {
+    color: white;
+}
+
+.covers_chiziq {
+    border: 1px solid #F1F3F4;
+    width: 100%;
+
+}
+
+/* =================================================================================================================================== */
+
+.table {
+    background-color: #E4E7ED;
+    width: 100%;
+}
+
+nav {
+    background-color: white;
+    padding: 30px 30px;
+}
+
+nav .containeri {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Search {
+    width: 300px;
+    background-color: #F0F5FF;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.Search input {
+    border: none;
+    background-color: #F0F5FF;
+    padding-left: 10px;
+    width: 200px;
+    outline: none;
+}
+
+.Search i {
+    color: #75759D;
+}
+
+.accound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.accound img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.hero .container {
+    padding-top: 30px;
+}
+
+.hero {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+
+}
+
+.box {
+    width: 950px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.remo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.remo h4 {
+    background-color: #E7F0FF;
+    padding: 4px 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+.Turlari {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 18px;
+}
+
+.Turlari h4:hover {
+    background-color: #0056FF;
+    color: white;
+    cursor: pointer;
+}
+
+.Turlari h4 {
+    background-color: #E7F0FF;
+    padding: 4px 10px;
+    border-radius: 8px;
+    border: none;
+    font-weight: normal;
+}
+
+.seeAll {
+    color: #0056FF;
+}
+
+.hero0 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1 {
+    width: 210px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 5px #F7F7F7;
+
+}
+
+.box1 img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.box1 h5 {
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-weight: normal;
+}
+
+.box1 p {
+    font-size: 14px;
+    color: #6E7583;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.box1-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ============================================================================================= */
+/* o'ng tomondagi kok oyna */
+.bookbase2 {
+    background-color: #001743;
+    width: 290px;
+    padding: 50px;
+}
+.bookbase2_box{
+    width: 200px ;
+    margin: 0 auto;
+
+}
+.bookbase2_box img{
+    width: 100%;
+    border-radius: 10px;
+    height: 250px;
+}
+.bookbase2_box p{
+    text-align: center;
+    color: grey;
+
+}
+.bookbase2_box h4{
+    text-align: center;
+    color: white;
+    padding: 10px 0px;
+    font-weight: normal;
+}
+.bookbase2_box h5{
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+.bookbase2_box_start{
+    text-align: center;
+}
+.bookbase2_box_start i{
+    color: #FFCA00;
+
+}
+.bookbase2_box_start span{
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+}
+.reyting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    color: gray;
+    padding: 20px 0px;
+}
+.Pagers{
+    border-right: 1px solid #546D9B;
+   padding-right: 10px;
+}
+.Reviews{
+    border-left: 1px solid #546D9B;
+   padding-left: 10px;
+}
+.bookbase2_box_btn{
+    text-align: center;
+    padding-top: 50px;
+}
+.bookbase2_box_btn button{
+    padding: 12px 35px;
+    background-color: #0056FF;
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    border-radius: 8px;
+    border: none;
+}
+/* ================================================================================================ */
+/* ortadan 2-oyna */
+.box2 .box2-1 {
+    width: 170px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 5px #F7F7F7;
+
+}
+
+.box2-1 img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+
+.box2-1 img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.box2-1 h5 {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-weight: normal;
+}
+
+.box2-1 p {
+    font-size: 12px;
+    color: #6E7583;
+    padding-top: 7px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.box2-1:hover{
+    transform: scale(1.1);
+    box-shadow: none;
+}
+
+/* ===================================================================================================== */

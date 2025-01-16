@@ -26,8 +26,19 @@
 }
 
 .logo_bookbase {
-    padding-top: 20px;
-    text-align: center;
+    padding-top: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* gap: 10px; */
+    margin-right: 35px;
+}
+
+.logo_bookbase span{
+    font-size: 26px;
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
 }
 
 .descover {

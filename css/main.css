@@ -350,7 +350,7 @@ nav .containeri {
 }
 
 .remo h4 {
-    background-color: #E7F0FF;
+    background-color: #F1F3F4;
     padding: 4px 10px;
     border-radius: 8px;
     border: none;
@@ -370,15 +370,16 @@ nav .containeri {
 }
 
 .Turlari h4 {
-    background-color: #E7F0FF;
+    background-color: #F1F3F4;
     padding: 4px 10px;
     border-radius: 8px;
     border: none;
     font-weight: normal;
+    
 }
 
 .seeAll {
-    color: #C92035;
+    color: #e5383b;
 }
 
 .hero0 {
@@ -438,7 +439,7 @@ nav .containeri {
 }
 .bookbase2_box p{
     text-align: center;
-    color: grey;
+    color: #e5e5e5;
 
 }
 .bookbase2_box h4{
@@ -471,15 +472,15 @@ nav .containeri {
     align-items: center;
     gap: 10px;
     text-align: center;
-    color: gray;
+    color: #e5e5e5;
     padding: 20px 0px;
 }
 .Pagers{
-    border-right: 1px solid #546D9B;
+    border-right: 1px solid #e5e5e5;
    padding-right: 10px;
 }
 .Reviews{
-    border-left: 1px solid #546D9B;
+    border-left: 1px solid #e5e5e5;
    padding-left: 10px;
 }
 .bookbase2_box_btn{
